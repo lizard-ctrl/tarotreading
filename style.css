@@ -1,0 +1,161 @@
+
+@font-face{
+    font-family: 'SnellOne';
+    src: url('font/SnellRoundhand-Script.woff\ copy');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'SnellOne';
+    src: url('font/SnellRoundhand-Script\ copy.svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    padding: 10px;
+    font-family: "SnellOne";
+    color: BlueViolet;
+    background: lightblue;
+    font-size: 15px;
+    kerning: auto;
+}
+
+h1{
+    font-family: 'Almendra Display', cursive;
+}
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 4%;
+}
+
+
+#left{
+    border-style: double;
+    border-color: BlueViolet;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 20%;
+    height: 90%;
+    border-radius: 10%;
+    overflow: scroll;
+    transition: 1.5s;
+}
+#left:hover{
+    background-color: #8D86C9;
+}
+
+#right{
+    border-style: double;
+    border-color: BlueViolet;
+    position: absolute;
+    top: 5%;
+    left: 75%;
+    width: 20%;
+    height: 90%;
+    overflow: scroll;
+    transition: 1.5s;
+    border-radius: 10%;
+}
+#right:hover{
+    background-color: #8D86C9;
+}
+
+#header{
+    position: absolute;
+    top: 0%;
+    left: 32%;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Almendra Display', cursive;
+    padding: 4%;
+}
+
+#headertwo{
+    font-size: 11px;
+    padding: 0px;
+    color: blue;
+    border: #8D86C9;
+    border-style: double;
+    text-align:center;
+    font-family: 'Almendra Display', cursive;
+}
+
+
+#textAreaOutput{
+    position: absolute;
+    right:6%;
+    top:10%;
+    padding:10px;
+    height:auto;
+    width:660px;
+    border:2px solid blue;
+    z-index:8 !important;
+    color:blue;
+    background-color: white;
+  }
+  #numberOfWords{
+    display:none;
+  }
+  #textAreaInput{
+    display:none;
+}
+
+.wrapper > div img {
+    display: none;
+  }
+
+  
+  .rndmImage {
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    top: 20%;
+    left: 25%;
+  }
+
+  #tarotReading {
+      position: absolute;
+      width: 45%;
+      height: 80%;
+      top: 13%;
+      left: 27%;
+      border: #8D86C9;
+      border-style: double;
+      
+      transition: 1.5s;
+  }
+
+  #tarotReading:hover{
+    background-color: #8D86C9;
+    border-radius: 50%;
+}
+
+  button{
+    font-family: 'Almendra Display', cursive;
+    position: absolute;
+    top: 6%;
+    left: 35%;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    font-size: 25px;
+    border: #8D86C9;
+    border-style: solid;
+    cursor:pointer;
+    overflow: hidden;  
+    color: BlueViolet;
+  }
+
+a{
+    color: blue;
+    font-size: x-large;
+}
+
