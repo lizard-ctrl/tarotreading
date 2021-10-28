@@ -17,7 +17,7 @@ body{
     padding: 10px;
     font-family: "SnellOne";
     color: BlueViolet;
-    background: lightblue;
+    background-image: url(assets/images/db4fjld-7c04adef-021f-4163-9681-c2848d291765\ copy\ 2.gif);
     font-size: 15px;
     kerning: auto;
 }
@@ -118,8 +118,8 @@ h2{
     position: absolute;
     width: 300px;
     height: 400px;
-    top: 20%;
-    left: 25%;
+    top: 17%;
+    left: 26%;
   }
 
   #tarotReading {
